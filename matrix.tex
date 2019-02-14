@@ -1,0 +1,117 @@
+\documentclass{beamer}  
+\usetheme{Warsaw}
+\title{Introduction to AI and ML}
+\subtitle{ Matrix Project}
+\author{A.AVINASH, EE17BTECH11005 \and \\K.DEVENDER, EE17BTECH11015}
+\begin{\newlinedocument}
+
+\begin{frame}
+
+\titlepage
+ 
+\end{frame}  
+
+\begin{frame}[t]{Question}
+
+The point diametrically opposite to the point $P(1,0)$ on the circle $x^{2}+y^{2}+2x+4y-3=0$ is :
+
+\vspace{1.5em}
+
+Given circle in matrix form:
+\vspace{1.5em}
+
+\[x x^T+
+x
+\begin{bmatrix}
+2 \\
+4
+\end{bmatrix}
+=
+3
+\]
+
+\end{frame}
+
+
+\begin{frame}{Solution}
+general equation of circle in matrix form:
+\[x x^T 
+-
+2 x c^{T}
+=
+r^{2}
+-
+c c^{T}
+\]
+Here,
+\newline
+on comparing with our equation 
+\newline
+-2c^{T}
+=\begin{bmatrix}
+2\\
+4
+
+\end{bmatrix}
+\newline
+centre\hspace{2mm} of\hspace{2mm} circle 
+\hspace{2mm}c
+=
+\begin{bmatrix}
+-1 & -2
+
+\end{bmatrix}
+\newline
+and
+\newline
+r^{2}-c c^{T}
+=3
+\newline
+r^{2}-5=3
+\newline
+radius \hspace{2mm}of \hspace{2mm}circle
+\hspace{2mm}r = 2^{3/2}
+\end{frame}
+
+\begin{frame}
+Given $P(1,0)$ is the point on the circle 
+\newline
+\newline
+Let $Y(a,b)$ be the diametrically opposite point to P.
+\newline
+\newline
+As $Y(a,b)$ lies on circle and diametrically opposite to $P(1,0)$
+\newline
+\newline
+So,
+\newline
+\newline
+c is the mid point of  $P(1,0)$ and $Y(a,b)$ 
+
+\end{frame}
+   
+\begin{frame}
+
+c =\dfrac{P+Y}{2}
+\newline
+Y = 2c-P
+\newline
+Y = 2\begin{bmatrix}
+-1 & -2\\
+\end{bmatrix}
+-
+\begin{bmatrix}
+1 & 0\\
+\end{bmatrix}
+\newline
+Y=\begin{bmatrix}
+-3 & -4\\
+\end{bmatrix}
+\newline
+Therefore ,
+\newline
+Y=\begin{bmatrix}
+-3 & -4\\
+\end{bmatrix} \hspace{2mm} is\hspace{2mm}  the \hspace{2mm} diametrically\hspace{2mm}  opposite \hspace{2mm} point \hspace{2mm} to\hspace{2mm}  $P(1,0)$
+\end{frame}
+\end{document}
